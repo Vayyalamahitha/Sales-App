@@ -1,0 +1,103 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .app {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(235, 153, 153);
+    font-weight: bold;
+  }
+  .icons {
+      float: right;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      background-color: rgb(235, 153, 153);
+      font-weight: bold;
+    }
+  .active{
+      float: right;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      background-color: rgb(235, 153, 153);
+      font-weight: bold;
+
+  }
+  .topnav a.app {
+    background-color: rgb(235, 153, 153);
+    color: black;
+  }
+  h1,h3{
+      text-align: center;
+      color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(235, 153, 153);
+    color: black;
+  }
+  .visualize2{
+    background-image: url("../images/BPRED 2.png");
+    float: center;
+    width: 700px;
+    height: 500px;
+    background-repeat:no-repeat ;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .visualize1{
+    background-image: url("../images/AFred.png");
+    float: right;
+    width: 1200px;
+    height: 800px;
+    background-repeat:no-repeat ;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 250px;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+
+  }
+  p{
+    margin-left: 300px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  .powerbi{
+    text-align: center;
+  }
+  button{
+    background-color: rgb(235, 153, 153);
+    color: black;
+    min-height: 25px;
+    font-size: 20px;
+    padding: 13px;
+    border-radius: 20px;
+  }
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+

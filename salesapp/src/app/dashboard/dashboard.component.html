@@ -1,0 +1,25 @@
+<div>
+  <div class="topnav">
+    <a class="app">Sales Predictor</a>
+    <a class="icons" href="#login">Logout</a>
+    <a class="icons">Visualize</a>
+    <a class="active">Results</a>
+    <a class="icons">Upload</a>
+  </div>
+  <div>
+    <h2>To view results of your sales data...<br>click below 👇</h2>
+  </div>
+  <div class="comments">
+    <div class="sec">
+      <button type="button" class="button1" (click)="method()">View Results</button>
+      <br><br><button type="button" class="button2" (click)="visualize()">Visualize</button>
+    </div>
+          <div class="commentdiv" [hidden]="!showcomment">
+            <ul *ngFor="let list of templist">
+              <ul *ngFor="let i of list | keyvalue">
+                <li> <b>{{i.key}}</b> :- {{i.value}}</li>
+              </ul>
+            </ul>
+          </div>
+    </div>
+</div>

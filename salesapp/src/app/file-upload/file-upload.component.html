@@ -1,0 +1,22 @@
+<div>
+  <div class="topnav">
+    <a class="app">Sales Predictor</a>
+    <a class="icons" href="#login">Logout</a>
+    <a class="icons">Visualize</a>
+    <a class="icons">Results</a>
+    <a class="active">Upload</a>
+  </div>
+  <div class="des">
+    <p class="p1"> Predict your sales</p>
+    <p class="p2">Upload data-View results-Visualize data</p>
+  <div class="files">
+    <div class="chooseFile">
+      <input type="file" accept=".csv" (change)="onFileSelect($event)">
+    </div>
+    <div class="buttons">
+      <button type="upload" class="button1" (click)="fileUpload()">Upload</button>
+      <button type="upload" class="button2" (click)="getdata()">View results</button>
+    </div>
+  </div>
+</div>
+

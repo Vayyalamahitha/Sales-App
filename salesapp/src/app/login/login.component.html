@@ -1,0 +1,24 @@
+<div class="body">
+    <div class="container">
+        <div class="leftContainer">
+            <P >SALES PREDICTOR</P>
+            <div class="screenImage">
+
+            </div>
+        </div>
+
+        <div class="formContainer">
+            <div class="loginForm">
+                <h3>LOGIN</h3>
+                <form  #loginFormHandler="ngForm" (ngSubmit)="Onsubmit()">
+                    <p>Username:</p>
+                    <input type="text" name="userName" class="InputArea" [(ngModel)]="user.userName" size="25">
+                    <p>Password:</p>
+                    <input type="password" name="userPassword" class="InputArea" [(ngModel)]="user.userPassword" size="25"><br><br>
+                    <a href="#">Forgot Password?</a>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
